@@ -10,10 +10,10 @@ for(int i=0;s[i]!='\0';i++){
 if(isalnum(s[i]))
    ch++;
    
-else if(s[i]=' ')
+else if(s[i]==' ')
    wd++;
    
-else if(s[i]='.' || s[i]='!' || s[i] == '?')
+else if(s[i] == '.' || s[i] == '!' || s[i] == '?')
    sn++;
    
   }
@@ -55,6 +55,7 @@ else if(s[i]='.' || s[i]='!' || s[i] == '?')
               
          }     
       if (val>=14)
+         
       return "Professor";
                  
               
