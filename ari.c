@@ -10,19 +10,19 @@ for(int i=0;s[i]!='\0';i++){
 if(isalnum(s[i]))
    ch++;
    
-else if(s[i]==' ')
-   wd++;
+else if(s[i]==' '){
+   wd++;}
    
-else if(s[i] == '.' || s[i] == '!' || s[i] == '?')
-   sn++;
+else if(s[i] == '.' || s[i] == '!' || s[i] == '?'){
+   sn++;}
    
   }
   
   wd++;
   
-  float ar = 4.71*(float)(ch/wd) + 0.5*(float)(wd/sn) -21.43 ;
+  float ar = 4.71*(float)ch/(float)wd + 0.5*(float)wd/(float)sn -21.43 ;
   
-  int val = ceil (ar);
+  int val = (int)ceil (ar);
   
   switch(val){
   
@@ -58,5 +58,5 @@ else if(s[i] == '.' || s[i] == '!' || s[i] == '?')
          
       return "Professor";
                  
+}              
               
-      }        
