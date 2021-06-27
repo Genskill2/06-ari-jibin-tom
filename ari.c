@@ -7,7 +7,7 @@ string ari(string s) {
    int ch=0,wd=0,sn=0;
 for(int i=0;s[i]!='\0';i++){
 
-if(isalnum(s[i])
+if(isalnum(s[i]))
    ch++;
    
 else if(s[i]=' ')
@@ -56,6 +56,6 @@ else if(s[i]='.' || s[i]='!' || s[i] == '?')
          }     
       if (val>=14)
       return "Professor";
-              break;      
+                 
               
       }        
