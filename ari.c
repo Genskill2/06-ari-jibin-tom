@@ -13,7 +13,7 @@ if(isalnum(s[i]))
 else if(s[i]==' '){
    wd++;}
    
-else if(s[i] == '.' || s[i] == '!' || s[i] == '?'){
+else if(s[i] == '.' || s[i] == '!' || s[i] == '?' && s[i+2]!='.'){
    sn++;}
    
   }
