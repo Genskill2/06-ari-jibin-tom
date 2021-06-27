@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>
+#include <cs50.h>
 
 string ari(string s) {
    int ch=0,wd=0,sn=0;
