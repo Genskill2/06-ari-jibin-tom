@@ -13,12 +13,12 @@ if(isalnum(s[i]))
 else if(s[i]==' '){
    wd++;}
    
-else if((s[i] == '.' || s[i] == '!' || s[i] == '?')&& (s[i+2]!='.')){
+else if(s[i] == '.' || s[i] == '!' || s[i] == '?') {//&& (s[i+2]!='.')){
    sn++;}
    
   }
   
-  wd++;
+ // wd++;
   
   float ar = 4.71*(float)ch/(float)wd + 0.5*(float)wd/(float)sn -21.43 ;
   
